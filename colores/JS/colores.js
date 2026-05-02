@@ -9,7 +9,6 @@ function updateColor() {
   const color = randomHexColor();
   document.body.style.backgroundColor = color;
   button.textContent = color;
-  button.style.color = luminance > 0.6 ? "#111111" : "#ffffff";
 }
 
 button.addEventListener("click", updateColor);
