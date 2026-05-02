@@ -1,6 +1,26 @@
 
-const boton=document.querySelector("button");
+const boton=document.querySelector('button');
 
-boton.onclick = function saludar() {
-    alert("Hola mundo");
-};
+/*boton.addEventListener('click', saludar);
+
+function saludar() {
+    console.log('Hola mundo');
+}
+
+/*boton.onclick = function saludar() {
+    console.log('Hola mundo');
+}*/
+
+/*boton.addEventListener('mouseover', function() {
+    boton.style.backgroundColor = 'red';
+});
+
+boton.removeEventListener('mouseover', function() {
+    boton.style.backgroundColor = 'red';
+});*/
+
+boton.addEventListener('dblclick', saludar);
+
+function saludar() {
+    alert('diste doble clic');
+}
