@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6400DC;
+    font-family: sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.campo {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+    /* Esto quita el estilo por defecto de algunos navegadores */
+    accent-color: #222; 
+}
+
+#salida-hex {
+    background: #f0f0f0;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #444;
+}
