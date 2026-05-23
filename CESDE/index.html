@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="img/mono.png">
+    <title> To Do List</title>
+</head>
+<body>
+    <img class="logo" src="IMG/logo_cesde_sin_fondo.png" alt="Logo de CESDE">
+    <h1>To Do List</h1>
+
+    <form action="#" id="userInput">
+        <input type="text" placeholder="Escibe tu tarea aca..." autofocus>
+        <input type="submit" value="+" id="addBtn">
+        <div id="taskList">
+            <div class="task-container" id="1">
+                <input type="checkbox">
+                <label>Tarea 1</label>
+                <img src="img/compartimiento.png" class="closeBtn">
+            </div>
+        </div>
+        <div id="stats">
+            Tareas pendientes: 1 / Tareas completadas: 0
+        </div>
+    </form>
+</body>
+<script src="JS/main.js"></script>
+</html>
